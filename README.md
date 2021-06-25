@@ -1,8 +1,8 @@
-## react-custom-hooks
+# react-custom-hooks
 
 Read intro instructions
 
-# If you want showing up your react custom hooks, please follow up the instructions:
+## If you want showing up your react custom hooks, please follow up the instructions:
 
 ## Instructions
 
@@ -16,9 +16,9 @@ Read intro instructions
 
 5. Please pay attention to the first example to understand how to write your hooks usecase examples.
 
-# Hooks
+## Hooks
 
-1. # useWindowSize
+1. ### useWindowSize
 
 ## Usage
 
