@@ -2,7 +2,7 @@
 
 #### Read intro instructions
 
-## If you want showing up your react custom hooks, please follow up the instructions:
+## If you want showing up your hooks, please follow up the instructions:
 
 ## Instructions
 
