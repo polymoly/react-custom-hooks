@@ -1,6 +1,6 @@
 # react-custom-hooks
 
-Read intro instructions
+#### Read intro instructions
 
 ## If you want showing up your react custom hooks, please follow up the instructions:
 
@@ -48,4 +48,35 @@ const { text, toggle } = useToggleText("default value", "toggled value");
 <div style={{ width: 300, height: 300, background: "#ccc" }} onClick={toggle}>
   {text}
 </div>;
+```
+
+3. ### useLocalStorage
+
+## Usage
+
+```js
+const [value, setValue] = useLocalStorage("name");
+
+console.log(value);
+
+// return
+
+<div>
+  <input
+    type="text"
+    placeholder="Enter your name"
+    value={value}
+    onChange={(e) => setValue(e.target.value)}
+  />
+</div>;
+```
+
+4. ### useCamelCase
+
+## Usage
+
+```js
+const camelCasedValue = useCamelCase("john-doe", "-");
+
+console.log(camelCasedValue); // johnDoe
 ```
