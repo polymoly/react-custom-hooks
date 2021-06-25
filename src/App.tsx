@@ -1,7 +1,5 @@
 function App() {
-  return (
-    <div style={{ width: 300, height: 300, background: "black" }}>hello</div>
-  );
+  return <div>app here</div>;
 }
 
 export default App;

@@ -35,3 +35,17 @@ const { width } = useWindowSize();
   }}
 ></div>;
 ```
+
+2. ### useToggleText
+
+## Usage
+
+```js
+const { text, toggle } = useToggleText("default value", "toggled value");
+
+// return
+
+<div style={{ width: 300, height: 300, background: "#ccc" }} onClick={toggle}>
+  {text}
+</div>;
+```
