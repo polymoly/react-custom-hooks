@@ -1,6 +1,6 @@
-import { usePreviousState } from "./hooks/usePreviousState";
+import { usePreviousState } from "../../hooks";
 
-function App() {
+function _usePreviousState() {
   const [prevState, state, setValue] = usePreviousState(0);
 
   return (
@@ -12,4 +12,4 @@ function App() {
   );
 }
 
-export default App;
+export default _usePreviousState;
